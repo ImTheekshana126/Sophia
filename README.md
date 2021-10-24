@@ -13,6 +13,7 @@
 ### Mandatory Vars 
 
 [+] Make Sure You Add All These Mandatory Vars. 
+
     [-] APP_ID:   You can get this value from https://my.telegram.org
     [-] APP_HASH :   You can get this value from https://my.telegram.org
     [-] STRINGSESSION : Your String Session, You can get this From Repl or BY running String_Gen File Locally
