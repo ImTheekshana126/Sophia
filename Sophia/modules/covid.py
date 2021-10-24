@@ -23,7 +23,7 @@ def covid(update: Update, context: CallbackContext):
 COVID_HANDLER = DisableAbleCommandHandler(["covid", "corona"], covid)
 dispatcher.add_handler(COVID_HANDLER)
 
-__mod_name__ = "💞Covid-19💞"
+__mod_name__ = "Covid-19"
 
 __help__ = """
 ~ `/covid`** <songname artist(optional)>: download the song in it's best quality available.(API BASED)
