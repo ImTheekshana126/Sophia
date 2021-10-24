@@ -1,4 +1,4 @@
-<h1 align="center"><b> ❤️ Sophia 2.0  ❤️ OLD</b></h1>
+<h1 align="center"><b> ❤️ Sophia ❤️ </b></h1>
 
 ## Avaiilable on Telegram as [SophiaBot](https://t.me/thesophiabot)
 
