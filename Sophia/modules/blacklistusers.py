@@ -178,4 +178,4 @@ dispatcher.add_handler(BL_HANDLER)
 dispatcher.add_handler(UNBL_HANDLER)
 dispatcher.add_handler(BLUSERS_HANDLER)
 
-__mod_name__ = "💞Blacklist-Users💞"
+__mod_name__ = "Blacklist-Users"
