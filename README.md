@@ -2,7 +2,7 @@
 
 ## Avaiilable on Telegram as [SophiaBot](https://t.me/thesophiabot)
 
-<center><img src="https://telegra.ph/file/7cddb502b131680001a24.jpg">
+<p align="center"><img src="https://telegra.ph/file/7cddb502b131680001a24.jpg">
 
 # 🏃‍♂️ Easy Deploy 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImTheekshana126/Sophia.git)
