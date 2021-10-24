@@ -77,6 +77,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """Hey there, my name is *Sophia*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
 
+STICKERS = (
+      "CAACAgIAAxkBAAEDYcdhdOz0L7-NXtkeB2tWmfntCkd_HQACDgADr8ZRGrdbgux-ASf3IQQ",
+      "CAACAgIAAxkBAAEDYc9hdO0h210lMXHG2iYC9lvVWqKHsAACCwADr8ZRGoDYD2zEu_THIQQ",
+      " CAACAgIAAxkBAAEDYcdhdOz0L7-NXtkeB2tWmfntCkd_HQACDgADr8ZRGrdbgux-ASf3IQQ",
+)  
+
 buttons = [
     [
         InlineKeyboardButton(text=" Commands Help ❓", callback_data="help_back"),
@@ -88,24 +94,23 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" Sophia News 🙋‍♀️ ", url=f"https://t.me/dihanofficial"),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/dihan_official"),
+        InlineKeyboardButton(text=" Sophia News 🙋‍♀️ ", url=f"https://t.me/Theekshana_official"),
+        InlineKeyboardButton(text=" Support Group 📡 ", url=f"https://t.me/Theekshana_Support"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/TheSophiaBot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-✘✘✘ 𝗛𝗲𝗹𝗽𝗳𝘂𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ✘✘✘
-
+Helpful Commands
 Every possibility of Sophia is documentated here
 Click buttons to get help
 """
 
 DONATE_STRING = """Hey, glad to hear you want to donate!
- You can support the project Of [Dihan Randila](t.me/dihanrandila) \
- Supporting isnt always financial! [Dihan Official](t.me/dihanofficial) \
+ You can support the project Of [sophia Team](https://github.com/TeamSophiaBot) \
+ Supporting isnt always financial! [Theekshana Official](t.me/Theekshana_official) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -359,16 +364,16 @@ def sophia_about_callback(update, context):
                  \n* I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n* I check for admins' permissions before executing any command
 
-                 \n[♚ Special Credits] (https://telegra.ph/Special-Credits-08-21)
+                 \n[♚ Special Credits] (https://github.com/imtheekshana126)
 
-                \n[💾 Source Code]  (https://github.com/dihanofficial/sophia)
+                \n[💾 Source Code]  (https://github.com/imtheekshana126/sophia)
 
-                \n[♕ Dihan Official] (https://github.com/dihanofficial) 
+                \n[♕ Dihan Official] (https://github.com/imtheekshana126) 
 
-                \n[📄 Terms And Conditions] (https://telegra.ph/Terms-and-Conditions-08-21)
+                \n[📄 Terms And Conditions] (https://telegra.ph/file/f0a5411274270ebf2c14a.jpg)
 
                 \nLicensed under the GNU Affero General Public Lisence v3.0. 
-                \n© 2020 - 2021 @DihanOfficial. All Rights Reserved """,
+                \n© 2020 - 2021 @Theekshana_Official . All Rights Reserved """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -410,15 +415,15 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text=" About Me 🙋‍", callback_data="sophia_"),
                   ],
                   [
-                    InlineKeyboardButton(text=" Source Code 💾", url=f"https://github.com/dihanofficial/sophia"),
+                    InlineKeyboardButton(text=" Source Code 💾", url=f"https://github.com/imtheekshana126/sophia"),
                   ],
                   [
                     InlineKeyboardButton(text=" Special Credits ❤ ", url=f"https://telegra.ph/Special-Credits-08-21"),
                     InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
                   ],
                   [
-                    InlineKeyboardButton(text="🙋‍ Sophia News ", url=f"https://t.me/dihanofficial"),
-                    InlineKeyboardButton(text="💬 Support Group", url=f"https://t.me/dihan_official"),
+                    InlineKeyboardButton(text="🙋‍ Sophia News ", url=f"https://t.me/Theekshana_official"),
+                    InlineKeyboardButton(text="💬 Support Group", url=f"https://t.me/Theekshana_Support"),
                   ],
                   [
                     InlineKeyboardButton(text="Commands Help ❓", callback_data="help_back"),
