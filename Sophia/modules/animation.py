@@ -382,7 +382,7 @@ __help__ = """
 -  /blockanimation*:*
 -  /kill*:*
 
- By @SophiaSLBot
+ By @TheSophiaBot
 """
 
 
@@ -408,7 +408,7 @@ dispatcher.add_handler(BLOCKANIMATION_HANDLER)
 __command_list__ = ["love", "hack", "bombs", "moonanimation", "clockanimation", "earthanimation", "blockanimation", "kill"]
 
 
-__mod_name__ = "💞Animation-Fun💞"
+__mod_name__ = "Animation-Fun"
 __command_list__ = ["love", "hack", "bombs", "moonanimation", "clockanimation", "earthanimation", "blockanimation", "kill"]
     
 
