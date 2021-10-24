@@ -1,4 +1,4 @@
-__mod_name__ = "💞Auto Filters💞"
+__mod_name__ = "Auto Filters"
 __help__ = """
 <b> AUTO FILTERS </b>
 Sophia Can filter content of a given channel automatically
@@ -20,6 +20,6 @@ Currently support:
 - /autofiltersettings : Show settings panel about auto filtering channels
 
 <i> Inspired by https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2 </i>
-Original work is done by @CrazyBotsz
+Original work is done by @Theekshana_Official
 
 """
